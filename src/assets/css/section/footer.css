@@ -26,11 +26,11 @@
   padding: 20px 0;
   text-transform: uppercase;
   font-weight: 700;
-  background: url(../../img/arrow.svg) no-repeat 16% 20px;
+  background: url(../../img/arrow.svg) no-repeat right 20px;
   transition: all 0.5s;
 }
 .footer__info .left .title:hover {
-  background-position: right;
+  background-position: 98% 20px;
   background-color: var(--black400);
   padding-left: 10px;
   border-color: transparent;
@@ -83,10 +83,22 @@
   .footer__info .left {
     width: 100%;
   }
+  .footer__info .left .title {
+    background-position: right 17px;
+  }
+  .footer__info .left .title:hover {
+    background-position: 98.5% 17px;
+  }
   .footer__info .left .desc {
     margin-bottom: 40px;
   }
   .footer__info .right {
     width: 100%;
+  }
+}
+
+@media (max-width: 320px) {
+  .footer__info .left .title:hover {
+    background-position: 97% 17px;
   }
 }
