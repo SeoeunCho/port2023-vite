@@ -12,7 +12,7 @@ Vite, React, Vue.js, Next.js 4가지 버전의 사이트가 있습니다.
 
 
 ## 완성작 보기 
-미리보기 : [DEMO](https://port2023-vite.netlify.app/)
+미리보기 : Netlify에 배포예정
 
 ## 사용 스택
 - vite(https://ko.vitejs.dev/) 를 사용하여 사이트를 번들링하고 관리합니다.
